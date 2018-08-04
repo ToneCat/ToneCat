@@ -1,45 +1,48 @@
 <package>
-	<id>com.supermamon.fullpackage</id>
+	<id>com.tonecat.vpackone</id>
 	<name>Full Package</name>
-	<version>2.0.0-1</version>
+	<version>1.0</version>
 	<compatibility>
 		<firmware>
-			<miniOS>7.0</miniOS>
+			<miniOS>10.0</miniOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
-		<package>mobilesubstrate</package>
+		<package>vWallpaper2</package>
 	</dependencies>
-	<shortDescription>This is a sample new package. Firmware should be greater than 7.0</shortDescription>
+	<shortDescription></shortDescription>
 	<descriptionlist>
-		<description>This is an package will full depictions.</description>
-		<description>It has more description lines.</description>
+		<description>A collection of brilliant, high definition video wallpapers for vWallpaper2.</description>
 		<description><![CDATA[
-		You can also have<br/> 
-		a multi-line item.
+		Configuration:<br/> 
+		1) Install the above tweak & open vWallpapers2<br/> 
+ 2) Tap "Manage current theme"<br/> 
+ 3) Enable "LOCKSCREEN:VIDEO" or "SPRINGBOARD:VIDEO"<br/> 
+ 4) Tap "Settings" for either one<br/> 
+ 5) Select among the installed vPack wallpapers for your lock screen or springboard<br/> 
 		]]>
 		</description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
-			<description>This is a description for screenshot 1. It's Cydia!</description>
-			<image>cydia.jpg</image>
+			<description>Hong Kong</description>
+			<image>hongkong.png</image>
 		</screenshot>		
 		<screenshot>
-			<description>This is a description for screenshot 2. It's another Cydia!</description>
-			<image>cydia.jpg</image>
-		</screenshot>		
+			<description>White Tiger</description>
+			<image>tiger.png</image>
+		</screenshot>
+                <screenshot>
+			<description>Retro Sunset</description>
+			<image>retro.png</image>
+		</screenshot>
+                <screenshot>
+			<description>New York Skyline</description>
+			<image>nyc.png</image>
+		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Second release</change>
-		<change>It has feature 1</change>
-		<change>It has feature 2</change>
+		<change>Four high definition, video wallpapers for vWallpaper2</change>
 	</changelog>
-	<links>
-		<link>
-			<name>/r/jailbreak</name>
-			<url>https://www.reddit.com/r/jailbreak</url>
-			<iconclass>fa fa-reddit</iconclass>
-		</link>
-	</links>
+	
 </package>
