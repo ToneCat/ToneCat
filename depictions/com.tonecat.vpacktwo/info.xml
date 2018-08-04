@@ -48,13 +48,9 @@
 			<description>Surf's Up</description>
 			<image>surf.png</image>
 		</screenshot>
-                <screenshot>
-			<description>White Lines</description>
-			<image>lines.png</image>
-		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Seven high definition, video wallpapers for vWallpaper2</change>
+		<change>Six high definition, video wallpapers for vWallpaper2</change>
 	</changelog>
 	
 </package>

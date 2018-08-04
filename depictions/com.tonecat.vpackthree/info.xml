@@ -40,9 +40,17 @@
 			<description>Water Dragon</description>
 			<image>waterdragon.png</image>
 		</screenshot>
+<screenshot>
+			<description>White Lines</description>
+			<image>whitelines.png</image>
+		</screenshot>
+<screenshot>
+			<description>Blue Squares</description>
+			<image>bluesquares.png</image>
+		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Four high definition, video wallpapers for vWallpaper2</change>
+		<change>Six high definition, video wallpapers for vWallpaper2</change>
 	</changelog>
 	
 </package>

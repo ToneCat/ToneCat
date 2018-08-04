@@ -40,13 +40,9 @@
 			<description>Orange Squares</description>
 			<image>orange.png</image>
 		</screenshot>
- <screenshot>
-			<description>Blue Squares/description>
-			<image>blue.png</image>
-		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Five high definition, video wallpapers for vWallpaper2</change>
+		<change>Four high definition, video wallpapers for vWallpaper2</change>
 	</changelog>
 	
 </package>
