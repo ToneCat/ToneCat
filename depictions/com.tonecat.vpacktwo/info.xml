@@ -36,10 +36,6 @@
 			<description>Space Particles</description>
 			<image>spaceparticles.png</image>
 		</screenshot>
-                <screenshot>
-			<description>Abstract Geometry</description>
-			<image>abstract.png</image>
-		</screenshot>
                  <screenshot>
 			<description>Bars</description>
 			<image>bars.png</image>
@@ -50,7 +46,7 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Six high definition, video wallpapers for vWallpaper2</change>
+		<change>Five high definition, video wallpapers for vWallpaper2</change>
 	</changelog>
 	
 </package>

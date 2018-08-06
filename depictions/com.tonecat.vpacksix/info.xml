@@ -1,0 +1,48 @@
+<package>
+	<id>com.tonecat.vpacksix</id>
+	<name>Full Package</name>
+	<version>1.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>vWallpaper2</package>
+	</dependencies>
+	<shortDescription></shortDescription>
+	<descriptionlist>
+		<description>Another collection of brilliant, high definition video wallpapers for vWallpaper2.</description>
+		<description><![CDATA[
+		Configuration:<br/> 
+		1) Install the above tweak & open vWallpapers2<br/> 
+ 2) Tap "Manage current theme"<br/> 
+ 3) Enable "LOCKSCREEN:VIDEO" or "SPRINGBOARD:VIDEO"<br/> 
+ 4) Tap "Settings" for either one<br/> 
+ 5) Select among the installed vPack wallpapers for your lock screen or springboard<br/> 
+		]]>
+		</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>Matrix Grid</description>
+			<image>matrix.png</image>
+		</screenshot>		
+		<screenshot>
+			<description>Fire Embers</description>
+			<image>minicircuit.png</image>
+		</screenshot>
+                <screenshot>
+			<description>Record Spin</description>
+			<image>spin.png</image>
+		</screenshot>
+                 <screenshot>
+			<description>Leaf</description>
+			<image>leaf.png</image>
+		</screenshot>
+	</screenshots>
+	<changelog>
+		<change>Four high definition, video wallpapers for vWallpaper2</change>
+	</changelog>
+	
+</package>
