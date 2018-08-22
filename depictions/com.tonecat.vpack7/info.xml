@@ -1,0 +1,61 @@
+<package>
+	<id>com.tonecat.vpack7</id>
+	<name>Full Package</name>
+	<version>1.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>vWallpaper2</package>
+	</dependencies>
+	<shortDescription></shortDescription>
+	<descriptionlist>
+		<description>A collection of brilliant, high definition video wallpapers for vWallpaper2.</description>
+		<description><![CDATA[
+		Configuration:<br/> 
+		1) Install the above tweak & open vWallpapers2<br/> 
+ 2) Tap "Manage current theme"<br/> 
+ 3) Enable "LOCKSCREEN:VIDEO" or "SPRINGBOARD:VIDEO"<br/> 
+ 4) Tap "Settings" for either one<br/> 
+ 5) Select among the installed vPack wallpapers for your lock screen or springboard<br/> 
+		]]>
+		</description>
+	</descriptionlist>
+
+	<screenshots>
+		<screenshot>
+			<description>Aquarium</description>
+			<image>aqua.png</image>
+		</screenshot>		
+		<screenshot>
+			<description>Earth</description>
+			<image>earth.png</image>
+		</screenshot>
+                <screenshot>
+			<description>Mountains</description>
+			<image>mt.png</image>
+		</screenshot>
+                <screenshot>
+			<description>Particle Blast</description>
+			<image>pb.png</image>
+		</screenshot>
+                <screenshot>
+			<description>Saigon</description>
+			<image>sg.png</image>
+		</screenshot>
+                <screenshot>
+			<description>New York</description>
+			<image>nyc.png</image>
+		</screenshot>
+                <screenshot>
+			<description>Color Particles</description>
+			<image>cp.png</image>
+		</screenshot>
+	</screenshots>
+	<changelog>
+		<change>Seven high definition, video wallpapers for vWallpaper2</change>
+	</changelog>
+	
+</package>
