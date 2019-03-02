@@ -1,0 +1,253 @@
+/*moving gradient from https://codepen.io/P1N2O/pen/pyBNzX*/
+/*material design bar from https://codepen.io/anon/pen/xBVzpx */
+
+
+@font-face {
+  font-family: lato;
+  src: url(app/assets/Ubuntu-R.ttf) format("truetype");
+}
+html{
+	font-family: lato;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+	
+
+
+}
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+
+.scroll-box {
+    background: white;
+    height: 300px; /* maximum height of the box, feel free to change this! */
+    padding: 0px;
+    width:800px;
+    overflow-y: scroll;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom:25px;
+    margin-top:25px;
+    border-radius:20px;
+    box-shadow: 1px 2px #888888;
+
+}
+table { border-collapse:collapse; }
+table thead th { border-bottom: 1px solid #fff; width:100%; }
+.trbottom {border-bottom:1px solid #D3D3D3;}
+
+
+thead{
+	background: rgb(4,178,246);
+background: linear-gradient(180deg, rgba(4,178,246,1) 0%, rgba(0,182,219,1) 100%);
+	color:white;
+}
+
+h1{
+	text-align:center;
+	margin-top:20px;
+	color: white !important;
+}
+h2{
+	text-align:center;
+	margin-top:20px;
+	color: white !important;
+}
+#btext{
+position: fixed; /* Set the navbar to fixed position */
+  bottom: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  font-family: lato;
+  font-size:25px;
+  color:white;
+}
+tr{
+     
+	font-size:13px;
+	
+
+}
+.buttons{
+ background-image: linear-gradient(#fff, #F8F8F8);
+  border: none;
+  color: #404040;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  width:300px;
+
+
+}
+#buttongroup{
+text-align:center;
+padding-bottom:0px;
+
+
+	
+}
+#spacer{
+display:inline-block;
+margin-right:20px;
+
+}
+
+
+.group {
+  position: relative;
+  margin-bottom: 20px;
+}
+input {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 300px;
+  border: none;
+  color:white;
+  border-bottom: 1px solid #fff;
+  background-color:rgba(0, 0, 0, 0);
+}
+input:focus {
+  outline: none;
+}
+
+/* LABEL ======================================= */
+label {
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+/* active state */
+input:focus ~ label,
+input:valid ~ label {
+  top: -20px;
+  font-size: 14px;
+  color: #fff;
+}
+
+/* BOTTOM BARS ================================= */
+.bar {
+  position: relative;
+  display: block;
+  width: 300px;
+
+
+
+}
+.bar:before,
+.bar:after {
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  background: #fff;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+.bar:before {
+  left: 50%;
+}
+.bar:after {
+  right: 50%;
+}
+
+/* active state */
+input:focus ~ .bar:before,
+input:focus ~ .bar:after {
+  width: 50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.highlight {
+  position: absolute;
+  height: 60%;
+  width: 100px;
+  top: 25%;
+  left: 0;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/* active state */
+input:focus ~ .highlight {
+  -webkit-animation: inputHighlighter 0.3s ease;
+  -moz-animation: inputHighlighter 0.3s ease;
+  animation: inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+  from {
+    background: #fff;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+@-moz-keyframes inputHighlighter {
+  from {
+    background: #fff;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+@keyframes inputHighlighter {
+  from {
+    background: #fff;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}

@@ -1,0 +1,43 @@
+<html>
+<body>
+<h1 id="intro">{{ course }} Angular HTTP Request App</h1>
+
+<div id = "buttongroup">
+
+<h2>Get Single Post</h2>
+<singlepost></singlepost>
+
+<h2>Enter Post ID & Load Comments</h2>
+<comments></comments>
+
+<h2>Enter Post ID To Get Post & Comments</h2>
+<postcomment></postcomment>
+
+<h2>Load All Posts</h2>
+<button class="buttons" (click)="getPosts()">Get All Posts</button>
+
+</div>
+
+
+
+<div class="scroll-box">
+<table mdbTable striped="true" style="margin-top:-2px; margin-left:-2px;">
+  <thead class="black white-text">
+ <th scope="col" style="padding-right:9.5px;">userId</th>
+ <th scope="col" style="padding-right:10px;">ID</th>
+ <th scope="col" style="padding-right:238px;">Title</th>
+  <th scope="col" style="padding-right:399px;">Body</th>
+  </thead>
+  <tbody>
+ <tr *ngFor="let x of allposts" class="trbottom">
+ <td>{{x.userId}}</td>
+<td>{{x.id}}</td>
+<td>{{x.title}}</td>
+<td>{{x.body}}</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div id="btext">by Tony Catalfamo</div>
+</body>
+</html>
